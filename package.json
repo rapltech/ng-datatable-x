@@ -49,7 +49,7 @@
     "object-path": "^0.11.8",
     "rxjs": "^7.8.1",
     "set-value": "^4.1.0",
-    "socket.io": "^4.7.5",
+    "socket.io": "^4.8.0",
     "socket.io-parser": "^4.2.4",
     "webpack-subresource-integrity": "^5.1.0",
     "zone.js": "0.14.4"
