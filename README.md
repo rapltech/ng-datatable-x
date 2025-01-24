@@ -3,7 +3,7 @@
 `ng-datatable-x` is an Angular component for presenting Datatable.
 It was built for modern browsers using _TypeScript, CSS3 and HTML5_ and Angular `>=18.2.0`.
 
-See the [changelog](https://github.com/linkstreet/ng-datatable-x/blob/master/CHANGELOG.md) for recent changes.
+See the [changelog](https://github.com/rapltech/ng-datatable-x/blob/master/CHANGELOG.md) for recent changes.
 
 ### Screenshots
 
@@ -23,7 +23,7 @@ Coming Soon
 
 The latest release of ng-datatable-x can be installed from npm
 
-`npm install @linkstreet/ng-datatable-x`
+`npm install @rapltech/ng-datatable-x`
 
 ### Getting started
 

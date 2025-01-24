@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/@linkstreet/ng-datatable-x",
+  "dest": "../../dist/@rapltech/ng-datatable-x",
   "lib": {
     "entryFile": "src/public_api.ts"
   }
