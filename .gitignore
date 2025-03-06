@@ -25,6 +25,9 @@ docs
 tmp
 /nbproject
 
+#angular
+.angular/*
+
 #yarn
 .yarn/*
 !.yarn/patches

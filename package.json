@@ -49,10 +49,12 @@
     "set-value": "^4.1.0",
     "socket.io": "^4.8.1",
     "socket.io-parser": "^4.2.4",
-    "webpack-subresource-integrity": "^5.1.0"
+    "webpack-subresource-integrity": "^5.1.0",
+    "zone.js": "0.15.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.9",
+    "@angular-devkit/build-ng-packagr": "0.1002.0",
     "@angular/cli": "^18.2.9",
     "@angular/compiler-cli": "^18.2.8",
     "@angular/language-service": "^18.2.8",
