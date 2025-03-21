@@ -25,6 +25,9 @@ docs
 tmp
 /nbproject
 
+#angular
+.angular/*
+
 #yarn
 .yarn/*
 !.yarn/patches
@@ -32,3 +35,7 @@ tmp
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+#angular
+.angular/*

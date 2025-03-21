@@ -23,10 +23,10 @@
     ],
     "paths": {
       "datatable": [
-        "dist/linkstreet/ng-datatable-x"
+        "dist/rapltech/ng-datatable-x"
       ],
       "datatable/*": [
-        "dist/linkstreet/ng-datatable-x/*"
+        "dist/rapltech/ng-datatable-x/*"
       ]
     }
   }
