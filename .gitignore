@@ -35,3 +35,7 @@ tmp
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+#angular
+.angular/*
