@@ -7,7 +7,7 @@ import {
   TemplateRef,
   Inject,
 } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
+import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { Subject, throwError as observableThrowError } from "rxjs";
 import {
   debounceTime,
@@ -16,13 +16,28 @@ import {
   timeout,
   tap,
 } from "rxjs/operators";
-import { FormControl } from "@angular/forms";
+import { FormControl, FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { CommonModule } from "@angular/common";
+import { MatInputModule } from "@angular/material/input";
+import { MatSelectModule } from "@angular/material/select";
+import { MatTooltipModule } from "@angular/material/tooltip";
+import { NgbPaginationModule } from "@ng-bootstrap/ng-bootstrap";
 
 @Component({
-  selector: "ng-datatable-x",
-  styleUrls: ["./datatable.component.scss"],
-  templateUrl: "./datatable.component.html",
-  encapsulation: ViewEncapsulation.None,
+    selector: "ng-datatable-x",
+    styleUrls: ["./datatable.component.scss"],
+    templateUrl: "./datatable.component.html",
+    encapsulation: ViewEncapsulation.None,
+    imports: [
+            CommonModule,
+            FormsModule,
+            ReactiveFormsModule,
+            MatInputModule,
+            MatSelectModule,
+            NgbPaginationModule,
+            HttpClientModule,
+            MatTooltipModule
+        ],
 })
 export class DataTableXComponent implements OnInit {
   @Input() public config: any;

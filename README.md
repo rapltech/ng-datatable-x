@@ -1,7 +1,7 @@
 # ng-datatable-x
 
 `ng-datatable-x` is an Angular component for presenting Datatable.
-It was built for modern browsers using _TypeScript, CSS3 and HTML5_ and Angular `>=18.2.0`.
+It was built for modern browsers using _TypeScript, CSS3 and HTML5_ and Angular `>=19.0.0`.
 
 See the [changelog](https://github.com/rapltech/ng-datatable-x/blob/master/CHANGELOG.md) for recent changes.
 
@@ -49,11 +49,14 @@ then in your app.component.ts you define a table like:
 ```
 import { Component } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { DataTableX } from 'ng-datatable-x';
+import { DataTableXComponent } from 'ng-datatable-x';
 
 @Component({
   selector: 'app',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  imports: [
+        DataTableXComponent,
+  ]
 })
 export class AppComponent {
     @ViewChild('dataTable') dt: DataTableX;
