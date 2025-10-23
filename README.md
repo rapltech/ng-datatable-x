@@ -49,11 +49,14 @@ then in your app.component.ts you define a table like:
 ```
 import { Component } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { DataTableX } from 'ng-datatable-x';
+import { DataTableXComponent } from 'ng-datatable-x';
 
 @Component({
   selector: 'app',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  imports: [
+        DataTableXComponent,
+  ]
 })
 export class AppComponent {
     @ViewChild('dataTable') dt: DataTableX;
